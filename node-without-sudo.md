@@ -74,7 +74,7 @@ To list the available versions, run this command:
 $ nvm ls-remote
 ```
 
-You can install any Node version, but many packages in RAIS Web project will depend for a 4.5.0+ version. In this tutorial it'll use the current v7.5.0 as below:
+You can install any Node version, but this tutorial will use the current v7.5.0 as below:
 
 ```
 $ nvm install 7.5.0
