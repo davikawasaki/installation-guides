@@ -30,3 +30,4 @@ Notes: These scripts will run only on the distro version listed above. DO NOT RU
 17. Docker
 18. Vim
 19. Android Studio
+20. Texlive & TexStudio & Jabref
