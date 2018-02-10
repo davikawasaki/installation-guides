@@ -7,12 +7,12 @@ echo '----------------- Getting binary version -----------------'
 
 echo '----------------- Adding repository URL to apt -----------------'
 
-sudo apt-add-repository ppa:mmk2410/intellij-idea;
+sudo apt-add-repository ppa:mmk2410/intellij-idea -y;
 
 echo '----------------- Updating apt to get IntelliJ URL reference -----------------'
 
-sudo apt-get update;
+sudo apt-get update -y;
 
 echo '----------------- Installing IntelliJ through apt -----------------'
 
-sudo apt-get install intellij-idea-ultimate;
+sudo apt-get install intellij-idea-ultimate -y;

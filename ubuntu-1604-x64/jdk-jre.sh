@@ -5,12 +5,12 @@
 echo '----------------- Installing JRE & JDK -----------------'
 echo '----------------- Updating apt before installation -----------------'
 
-sudo apt-get update;
+sudo apt-get update -y;
 
 echo '----------------- Installing default JRE through apt -----------------'
 
-sudo apt-get install default-jre;
+sudo apt-get install default-jre -y;
 
 echo '----------------- Installing default JDK through apt -----------------'
 
-sudo apt-get install default-jdk;
+sudo apt-get install default-jdk -y;

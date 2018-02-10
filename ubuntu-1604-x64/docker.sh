@@ -5,15 +5,15 @@
 echo '----------------- Installing Docker -----------------'
 echo '----------------- Getting public key server from PKI -----------------'
 
-sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D;
+sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D -y;
 
 echo '----------------- Adding repository URL to apt -----------------'
 
-sudo apt-add-repository 'deb https://apt.dockerproject.org/repo ubuntu-xenial main';
+sudo apt-add-repository 'deb https://apt.dockerproject.org/repo ubuntu-xenial main' -y;
 
 echo '----------------- Updating apt to get docker URL reference -----------------'
 
-sudo apt-get update;
+sudo apt-get update -y;
 
 echo '----------------- Installing docker engine through apt -----------------'
 

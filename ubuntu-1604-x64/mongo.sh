@@ -5,7 +5,7 @@
 echo '----------------- Installing Mongo 3.2 -----------------'
 echo '----------------- Getting public key server from PKI -----------------'
 
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927;
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927 -y;
 
 echo '----------------- Adding repository URL to apt -----------------'
 
@@ -13,7 +13,7 @@ echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" 
 
 echo '----------------- Updating apt to get mongo URL reference -----------------'
 
-sudo apt-get update;
+sudo apt-get update -y;
 
 echo '----------------- Installing mongo through apt -----------------'
 

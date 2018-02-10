@@ -138,11 +138,16 @@ sh ./android-studio.sh
 
 sudo apt-get install -f;
 
+# 20. Tex
+sh ./tex.sh
+
+sudo apt-get install -f;
+
 echo '----------------- Purge and autoremove any unmet dependencies -----------------'
 
 sudo apt purge;
 sudo apt autoremove;
 
 # Author: Davi Kawasaki
-# Version: 1.0.0
+# Version: 1.0.1
 # OS: Ubuntu 16.04 LTS x64

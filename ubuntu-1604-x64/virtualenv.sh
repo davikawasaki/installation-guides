@@ -5,12 +5,12 @@
 echo '----------------- Installing Virtualenv -----------------'
 echo '----------------- Installing python-dev through apt -----------------'
 
-sudo apt-get install python-dev;
+sudo apt-get install python-dev -y;
 
 echo '----------------- Forcing not installed dependencies to be installed -----------------'
 
-sudo apt-get install -f;
+sudo apt-get install -f -y;
 
 echo '----------------- Installing python-virtualenv through apt -----------------'
 
-sudo apt-get install python-virtualenv;
+sudo apt-get install python-virtualenv -y;

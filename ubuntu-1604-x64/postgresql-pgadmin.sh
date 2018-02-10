@@ -5,4 +5,4 @@
 echo '----------------- Installing PostgreSQL & pgAdmin3 -----------------'
 echo '----------------- Installing through apt -----------------'
 
-sudo apt-get install postgresql pgadmin3;
+sudo apt-get install -y postgresql pgadmin3;

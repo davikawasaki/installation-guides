@@ -5,4 +5,4 @@
 echo '----------------- Installing Vim -----------------'
 echo '----------------- Installing Vim through apt -----------------'
 
-sudo apt-get install vim;
+sudo apt-get install vim -y;

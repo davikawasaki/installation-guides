@@ -5,15 +5,15 @@
 echo '----------------- Installing Android Studio -----------------'
 echo '----------------- Adding repository URL to apt -----------------'
 
-sudo add-apt-repository ppa:maarten-fonville/android-studio;
+sudo add-apt-repository ppa:maarten-fonville/android-studio -y;
 
 echo '----------------- Updating apt to get android studio URL reference -----------------'
 
-sudo apt-get update;
+sudo apt-get update -y;
 
 echo '----------------- Installing android studio through apt -----------------'
 
-sudo apt-get install android-studio;
+sudo apt-get install android-studio -y;
 
 echo '----------------- Creating a symlink to run android studio on CLI -----------------'
 
